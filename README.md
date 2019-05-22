@@ -1,4 +1,13 @@
 # Semantics2019
+## Data Schema and Generator
+
+The dataset which was used in this experiment was created by wrapping the weather data dataset 
+[NOAA](https://www.ncdc.noaa.gov/) to RDF using the updated version of 
+[SSN ontology](https://www.w3.org/TR/vocab-ssn/).
+
+![Image Data Schema](./Station.png)
+
+The java tool for wrapping the NOAA dataset can be found at [1](https://github.com/anhlt18vn/noaa-2-rdf).
 
 
 ## Guidelines for running evaluation.
