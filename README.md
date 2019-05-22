@@ -4,23 +4,27 @@
 ## Guidelines for running evaluation.
 
 
-### Setup
+### Setting Up the Ecosystem
 
-Our system is developed using 4 components:-
-1. Blockchain - Ethereum Cluster
-2. IPFS Cluster
-3. Redis Cluster
-4. Java Client
+Our system is developed using 4 components. To setup each components we provide guidelines.
+1. [Blockchain - Ethereum Cluster](./blockchain/README.md)
+2. [IPFS Cluster](./ipfs/README.md)
+3. [Redis Cluster](./redis/README.md)
+4. [Java Client](./java/README.md)
 
 We deployed the above components on Raspberry Pi Model 3B. The Raspbian OS was used on Rpi.
 
 
+## Setting up the Experiments
 
-## Running evaluation
+* Clone this repository in <home_dir> ex. /home/pi
+* Location for the data should be /home/pi/Dataset
+
+## Run the Experiments
 
 #### Skeleton to Run a Publisher-Consumer Client
 
-java -Xms200m -Xmx650m -cp ./tub.ods.distributed.rdf4led/tub.ods.distributed.rdf4led.1.0-SNAPSHOT.jar tub.ods.rdf4led.distributed.benchmark.{Task} **SMART_CONTRACT_ADDRESS PRE-FUNDED_ADDRESS ETHEREUM_FULL_CLIENT**
+java -Xms200m -Xmx650m -cp ./tub.ods.distributed.rdf4led/tub.ods.distributed.rdf4led.1.0-SNAPSHOT.jar tub.ods.rdf4led.distributed.benchmark.{**TASK**} **SMART_CONTRACT_ADDRESS PRE-FUNDED_ADDRESS ETHEREUM_FULL_CLIENT**
 
 **TASK**: Mention the task to carry out the evaluation. example Insertion & Querying.
 
