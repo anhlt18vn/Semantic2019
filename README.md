@@ -1,8 +1,8 @@
 # Semantics2019
 ## Data Schema and Generator
 
-The dataset which was used in this experiment was created by wrapping the weather data dataset 
-[NOAA](https://www.ncdc.noaa.gov/) to RDF using the updated version of 
+The dataset which was used in this experiment was created by wrapping the weather data dataset
+[NOAA](https://www.ncdc.noaa.gov/) to RDF using the updated version of
 [SSN ontology](https://www.w3.org/TR/vocab-ssn/).
 
 ![Image Data Schema](./Station.png)
@@ -27,7 +27,7 @@ We deployed the above components on Raspberry Pi Model 3B. The Raspbian OS was u
 ## Setting up the Experiments
 
 * Clone this repository in <home_dir> ex. /home/pi
-* Location for the data should be /home/pi/Dataset
+* Location for the data should be /home/pi/dataset
 
 ## Run the Experiments
 
