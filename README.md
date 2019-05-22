@@ -6,7 +6,7 @@
 
 ### Setting Up the Ecosystem
 
-Our system is developed using 4 components. To setup each components we provide guidelines.
+Our system is developed using 4 components. To setup each components we provide guidelines for each of the following.
 1. [Blockchain - Ethereum Cluster](./blockchain/README.md)
 2. [IPFS Cluster](./ipfs/README.md)
 3. [Redis Cluster](./redis/README.md)
